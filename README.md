@@ -9,8 +9,10 @@ The electronic candle uses light sensors which detect variation in light intensi
 3. Resistors: 1M ohm and 1K ohm
 4. LEDs
 5. 10K Pot(Potentiometer)
-6. 12V Female DC Power Jack and 12V Adapter
+6. 12V Battery
 7. Breadboard
 8. Connecting Wires
 ## Circuit Diagram
 ## Working Principle
+### LM358 IC ####
+<p>LM358 IC is an Op-amp Comparator IC.It takes in voltages ```Vin , Vout``` through inverting terminal(**pin 3**) and non-inverting terminal(**pin 2**) as inputs, compares them and produces output in the output terminal.</p> 
