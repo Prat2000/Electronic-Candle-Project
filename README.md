@@ -27,6 +27,8 @@ The relation is<br>
 
 **CASE 2 :** When ```Vin+ < Vin-``` then ```Vout``` is **low** .Hence LED switches **OFF**.<br>
 
+**NOTE** In order to calibrate LM358 comparator, adjust the 10K Potentiometer to the level when the LED just turns off. This increases sensitivity of the LDR.
+
 ### LDR(Light Dependent Resistor)
 ![LDR file](https://user-images.githubusercontent.com/60696998/79794328-afaa3f00-836f-11ea-90e9-0eccb448656d.png)<br>
 
@@ -35,3 +37,4 @@ LDR is made up of **Cadmium Sulphide(CdS)** which is a semiconductor material. I
 When the room is dark( or when you cover the LDR with  your hand ), resistance of the LDR is very high( in the range of mega-ohms ) in comparison to the 10K potentiometer. So ```Vin+``` or the non-inverting terminal potential becomes more than ```Vin-``` or the inverting terminal potential. Hence **CASE 1** is satisfied and LED turns **ON**.<br>
 
 When the room is lighted ( or when you uncover the LDR ), resistance of LDR is very low in comparison to the 10K potentiometer.So ```Vin+``` or the non-inverting terminal potential becomes less than ```Vin-``` or the inverting terminal potential. Hence **CASE 2** is satisfied and LED turns **OFF**.<br>
+
