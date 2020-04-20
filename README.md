@@ -28,6 +28,7 @@ The relation is<br>
 **CASE 2 :** When ```Vin+ < Vin-``` then ```Vout``` is **low** .Hence LED switches **OFF**.<br>
 
 ### LDR(Light Dependent Resistor)
+![LDR file](https://user-images.githubusercontent.com/60696998/79794328-afaa3f00-836f-11ea-90e9-0eccb448656d.png)<br>
 
 LDR is made up of **Cadmium Sulphide(CdS)** which is a semiconductor material. It is a photo resistor i.e. its resistance depends on incident light intensity.<br>
 
