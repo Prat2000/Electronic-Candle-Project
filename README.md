@@ -16,14 +16,19 @@ The electronic candle uses light sensors which detect variation in light intensi
 ## Working Principle
 
 ### LM358 IC 
-LM358 IC is an Op-amp Comparator IC.It takes in voltages ```Vin+ , Vin-``` through inverting terminal (**pin 3**) and non-inverting terminal (**pin 2**) as inputs, compares them and produces output ```Vout``` in the output terminal (**pin 1**).The relation is<br>
-```Vout = A0( (Vin+) - (Vin-))``` &nbsp;[A0 is the open-loop gain of Op-amp]<br>
+LM358 IC is an Op-amp Comparator IC.It takes in voltages ```Vin+ , Vin-``` through inverting terminal (**pin 3**) and non-inverting terminal (**pin 2**) as inputs, compares them and produces output ```Vout``` in the output terminal (**pin 1**).<br>
+The relation is<br>
+
+```Vout = A0( (Vin+) - (Vin-))``` &nbsp;&nbsp;[A0 is the open-loop gain of Op-amp]<br>
+
 **CASE 1 :** When ```Vin+ > Vin-``` then ```Vout``` is **high** .Hence LED switches **ON**.<br>
+
 **CASE 2 :** When ```Vin+ < Vin-``` then ```Vout``` is **low** .Hence LED switches **OFF**.<br>
+
 ### LDR(Light Dependent Resistor)
-LDR is made up of **Cadmium Sulphide(CdS)** which is a semiconductor material. It is a photo resistor .i.e. its resistance depends on incident light intensity.<br>
+LDR is made up of **Cadmium Sulphide(CdS)** which is a semiconductor material. It is a photo resistor i.e. its resistance depends on incident light intensity.<br>
 When the room is dark( or when you cover the LDR with  your hand ), resistance of the LDR is very high( in the range of mega-ohms ) in comparison to the 10K potentiometer. So ```Vin+``` or the non-inverting terminal potential becomes more than ```Vin-``` or the inverting potential. Hence the **CASE 1** is satisfied and LED turns **ON**.<br>
-When the room is lighted ( or when you uncover the LDR ), reistance of LDR is very low in comparison to the 10K potentiometer.So ```Vin+``` or the non-inverting terminal potential becomes less than ```Vin-``` or the inverting potential. Hence the **CASE 2** is satisfied and LED turns **OFF**.<br>
+When the room is lighted ( or when you uncover the LDR ), resistance of LDR is very low in comparison to the 10K potentiometer.So ```Vin+``` or the non-inverting terminal potential becomes less than ```Vin-``` or the inverting potential. Hence the **CASE 2** is satisfied and LED turns **OFF**.<br>
 
 
 
