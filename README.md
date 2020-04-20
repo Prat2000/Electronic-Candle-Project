@@ -15,5 +15,6 @@ The electronic candle uses light sensors which detect variation in light intensi
 ## Circuit Diagram
 ## Working Principle
 
-### LM358 IC ####
-LM358 IC is an Op-amp Comparator IC.It takes in voltages ```Vin , Vout``` through inverting terminal(**pin 3**)and non-inverting terminal(**pin 2**)as inputs, compares them and produces output in the output terminal.</p> 
+### LM358 IC 
+LM358 IC is an Op-amp Comparator IC.It takes in voltages ```Vin+ , Vin-``` through inverting terminal (**pin 3**) and non-inverting terminal (**pin 2**) as inputs, compares them and produces output ```Vout``` in the output terminal (**pin 1**).The relation is<br>
+```Vout = A0( (Vin+) - (Vin-))```[A0 is the open-loop gain of OP-amp]
