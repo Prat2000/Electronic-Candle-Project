@@ -27,8 +27,10 @@ The relation is<br>
 
 ### LDR(Light Dependent Resistor)
 LDR is made up of **Cadmium Sulphide(CdS)** which is a semiconductor material. It is a photo resistor i.e. its resistance depends on incident light intensity.<br>
-When the room is dark( or when you cover the LDR with  your hand ), resistance of the LDR is very high( in the range of mega-ohms ) in comparison to the 10K potentiometer. So ```Vin+``` or the non-inverting terminal potential becomes more than ```Vin-``` or the inverting potential. Hence the **CASE 1** is satisfied and LED turns **ON**.<br>
-When the room is lighted ( or when you uncover the LDR ), resistance of LDR is very low in comparison to the 10K potentiometer.So ```Vin+``` or the non-inverting terminal potential becomes less than ```Vin-``` or the inverting potential. Hence the **CASE 2** is satisfied and LED turns **OFF**.<br>
+
+When the room is dark( or when you cover the LDR with  your hand ), resistance of the LDR is very high( in the range of mega-ohms ) in comparison to the 10K potentiometer. So ```Vin+``` or the non-inverting terminal potential becomes more than ```Vin-``` or the inverting potential. Hence **CASE 1** is satisfied and LED turns **ON**.<br>
+
+When the room is lighted ( or when you uncover the LDR ), resistance of LDR is very low in comparison to the 10K potentiometer.So ```Vin+``` or the non-inverting terminal potential becomes less than ```Vin-``` or the inverting potential. Hence **CASE 2** is satisfied and LED turns **OFF**.<br>
 
 
 
