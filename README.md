@@ -13,6 +13,9 @@ The electronic candle uses light sensors which detect variation in light intensi
 7. Breadboard
 8. Connecting Wires
 ## Circuit Diagram
+
+![Circuit](https://user-images.githubusercontent.com/60696998/79799025-74137300-8377-11ea-88c9-6182208f2882.png)
+
 ## Working Principle
 
 ### LM358 IC
