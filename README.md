@@ -14,7 +14,7 @@ The electronic candle uses light sensors which detect variation in light intensi
 8. Connecting Wires
 ## Circuit Diagram
 
-![Final Circuit](https://user-images.githubusercontent.com/60696998/79827872-1b66c900-83bd-11ea-9d7f-4233d7fce55d.png)
+![Circuit](https://user-images.githubusercontent.com/60696998/79834336-879bf980-83ca-11ea-9c4a-4e062e93587e.png)
 
 ## Working Principle
 
