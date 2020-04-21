@@ -47,3 +47,6 @@ When the room is lighted ( or when you uncover the LDR ), resistance of LDR is v
 
 **1.** Automatic Fire Alarm<br>
 **2.** Automatic Street Lights
+
+## Reference
+* https://circuitdigest.com/electronic-circuits/smart-electronic-candle-circuit-using-ldr
