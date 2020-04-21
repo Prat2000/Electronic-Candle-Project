@@ -43,7 +43,7 @@ When the room is lighted ( or when you uncover the LDR ), resistance of LDR is v
 
 **NOTE :** More than one LEDs can be connected in series for better lighting.
 
-## Other Uses
+## Other Applications
 
 **1.** Automatic Fire Alarm<br>
 **2.** Automatic Street Lights
