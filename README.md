@@ -42,3 +42,7 @@ When the room is dark( or when you cover the LDR with  your hand ), resistance o
 When the room is lighted ( or when you uncover the LDR ), resistance of LDR is very low in comparison to the 10K potentiometer.So ```Vin+``` or the non-inverting terminal potential becomes less than ```Vin-``` or the inverting terminal potential. Hence **CASE 2** is satisfied and LED turns **OFF**.<br>
 
 **NOTE :** More than one LEDs can be connected in series for better lighting.
+
+## Other Uses
+1.Automatic Fire Alarm
+2.Automatic Street Lights
